@@ -1,48 +1,70 @@
+import { FiPackage, FiInstagram, FiFacebook, FiLinkedin, FiTwitter } from "react-icons/fi";
+
 export default function Footer() {
-
   return (
-    <footer className="bg-black text-gray-400 py-10">
+    <footer className="bg-black pt-20 pb-10 border-t border-white/5 relative overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+          <div className="lg:col-span-2">
+            <a href="#" className="flex items-center gap-2 mb-6">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-orange-500 to-rose-500 flex items-center justify-center text-white">
+                <FiPackage size={18} />
+              </div>
+              <h2 className="text-2xl font-bold tracking-tight text-white">
+                Swift<span className="text-orange-500">Delivery</span>
+              </h2>
+            </a>
+            <p className="text-slate-400 leading-relaxed max-w-sm">
+              We provide cutting-edge logistics solutions designed for speed, security, and scalability. Your packages are our priority.
+            </p>
+            <div className="flex gap-4 mt-8">
+              <a href="#" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all">
+                <FiInstagram size={18} />
+              </a>
+              <a href="#" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all">
+                <FiFacebook size={18} />
+              </a>
+              <a href="#" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all">
+                <FiTwitter size={18} />
+              </a>
+              <a href="#" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all">
+                <FiLinkedin size={18} />
+              </a>
+            </div>
+          </div>
 
-      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 px-6">
+          <div>
+            <h3 className="text-white font-semibold mb-6">Company</h3>
+            <ul className="space-y-4">
+              <li><a href="#services" className="text-slate-400 hover:text-orange-400 transition-colors">Services</a></li>
+              <li><a href="#whyus" className="text-slate-400 hover:text-orange-400 transition-colors">Why Choose Us</a></li>
+              <li><a href="#coverage" className="text-slate-400 hover:text-orange-400 transition-colors">Our Coverage</a></li>
+              <li><a href="#contact" className="text-slate-400 hover:text-orange-400 transition-colors">Contact Us</a></li>
+            </ul>
+          </div>
 
-        <div>
-          <h2 className="text-white text-xl font-bold mb-4">
-            SwiftDelivery
-          </h2>
-          <p>
-            Reliable delivery solutions for businesses and individuals.
+          <div>
+            <h3 className="text-white font-semibold mb-6">Resources</h3>
+            <ul className="space-y-4">
+              <li><a href="#partner" className="text-slate-400 hover:text-orange-400 transition-colors">Become a Partner</a></li>
+              <li><a href="#" className="text-slate-400 hover:text-orange-400 transition-colors">Help Center</a></li>
+              <li><a href="#" className="text-slate-400 hover:text-orange-400 transition-colors">Terms of Service</a></li>
+              <li><a href="#" className="text-slate-400 hover:text-orange-400 transition-colors">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-slate-500 text-sm">
+            © {new Date().getFullYear()} SwiftDelivery. All rights reserved.
           </p>
+          <div className="flex gap-6 text-sm">
+            <a href="#" className="text-slate-500 hover:text-white transition-colors">Terms</a>
+            <a href="#" className="text-slate-500 hover:text-white transition-colors">Privacy</a>
+            <a href="#" className="text-slate-500 hover:text-white transition-colors">Cookies</a>
+          </div>
         </div>
-
-        <div>
-          <h3 className="text-white font-semibold mb-4">
-            Quick Links
-          </h3>
-
-          <ul className="space-y-2">
-            <li><a href="#services">Services</a></li>
-            <li><a href="#whyus">Why Us</a></li>
-            <li><a href="#coverage">Coverage</a></li>
-            <li><a href="#partner">Partner</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h3 className="text-white font-semibold mb-4">
-            Follow Us
-          </h3>
-
-          <p>Instagram</p>
-          <p>Facebook</p>
-          <p>LinkedIn</p>
-        </div>
-
       </div>
-
-      <div className="text-center mt-10 text-gray-500">
-        © 2026 SwiftDelivery. All rights reserved.
-      </div>
-
     </footer>
   );
 }
