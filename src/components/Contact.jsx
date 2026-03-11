@@ -22,7 +22,7 @@ export default function Contact() {
             transition={{ duration: 0.6 }}
           >
             <h3 className="text-2xl font-bold text-white mb-8">Contact Information</h3>
-            
+
             <div className="space-y-8">
               <div className="flex gap-4">
                 <div className="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center text-orange-400 shrink-0">
@@ -40,26 +40,12 @@ export default function Contact() {
 
               <div className="flex gap-4">
                 <div className="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center text-orange-400 shrink-0">
-                  <FiPhone size={24} />
-                </div>
-                <div>
-                  <h4 className="text-white font-medium mb-1">Phone</h4>
-                  <p className="text-slate-400 leading-relaxed">
-                    +971 50 000 0000<br />
-                    +971 4 000 0000
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex gap-4">
-                <div className="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center text-orange-400 shrink-0">
                   <FiMail size={24} />
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1">Email</h4>
                   <p className="text-slate-400 leading-relaxed">
-                    info@swiftdelivery.com<br />
-                    support@swiftdelivery.com
+                    Email-Admin@wsdeliveryservices.com<br />
                   </p>
                 </div>
               </div>

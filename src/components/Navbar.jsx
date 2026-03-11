@@ -24,9 +24,8 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-slate-950/80 backdrop-blur-md shadow-lg shadow-black/20 py-4" : "bg-transparent py-6"
-      }`}
+      className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-slate-950/80 backdrop-blur-md shadow-lg shadow-black/20 py-4" : "bg-transparent py-6"
+        }`}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
         <a href="#" className="flex items-center gap-2 group">
@@ -34,7 +33,7 @@ export default function Navbar() {
             <FiPackage size={24} />
           </div>
           <h1 className="text-2xl font-bold tracking-tight text-white group-hover:text-orange-400 transition-colors">
-            Swift<span className="text-orange-500">Delivery</span>
+            Wusool saree <span className="text-orange-500">delivery service</span>
           </h1>
         </a>
 

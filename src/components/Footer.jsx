@@ -11,7 +11,7 @@ export default function Footer() {
                 <FiPackage size={18} />
               </div>
               <h2 className="text-2xl font-bold tracking-tight text-white">
-                Swift<span className="text-orange-500">Delivery</span>
+                Wusool saree <span className="text-orange-500">Delivery service</span>
               </h2>
             </a>
             <p className="text-slate-400 leading-relaxed max-w-sm">
@@ -56,7 +56,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} SwiftDelivery. All rights reserved.
+            © {new Date().getFullYear()} WusoolsareeDeliveryService. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-slate-500 hover:text-white transition-colors">Terms</a>
