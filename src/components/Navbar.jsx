@@ -33,7 +33,7 @@ export default function Navbar() {
             <FiPackage size={24} />
           </div>
           <h1 className="text-2xl font-bold tracking-tight text-white group-hover:text-orange-400 transition-colors">
-            Wusool saree <span className="text-orange-500">delivery service</span>
+            Wusool <span className="text-orange-500">Saree Delivery Services</span>
           </h1>
         </a>
 

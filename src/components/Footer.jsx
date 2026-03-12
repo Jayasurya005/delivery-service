@@ -11,11 +11,15 @@ export default function Footer() {
                 <FiPackage size={18} />
               </div>
               <h2 className="text-2xl font-bold tracking-tight text-white">
-                Wusool saree <span className="text-orange-500">Delivery service</span>
+                Wusool <span className="text-orange-500">Saree Delivery Services</span>
               </h2>
             </a>
             <p className="text-slate-400 leading-relaxed max-w-sm">
-              We provide cutting-edge logistics solutions designed for speed, security, and scalability. Your packages are our priority.
+              Order Management & Delivery Services<br />
+              Smark 2 building, Ras Al Khor,<br />
+              Industrial area 2, Dubai-UAE<br />
+              admin@wsdeliveryservices.com<br />
+              +971 54 257 6880 | +971 56 654 4013
             </p>
             <div className="flex gap-4 mt-8">
               <a href="#" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all">
@@ -56,7 +60,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} WusoolsareeDeliveryService. All rights reserved.
+            © {new Date().getFullYear()} Wusool Saree Delivery Services. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-slate-500 hover:text-white transition-colors">Terms</a>
